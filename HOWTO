@@ -1,0 +1,26 @@
+Instale a biblioteca libspatialindex
+
+possível tutorial: https://github.com/libspatialindex/libspatialindex/wiki/1.-Getting-Started
+
+Veja http://libspatialindex.org para documentação completa.
+
+Compilar:
+g++ -std=c++0x file.cc -lspatialindex_c -lspatialindex -o file_name
+
+Executar:
+  Rio
+  ./file_name nome T n m xi yi di sigma
+  
+  Rua
+  ./file_name nome T n m xi yi di sigma
+  
+  Desmatamento
+  ./file_name nome T n r m xi yi di sigma
+  
+  T: Lado do quadrado da área geométrica;
+  n: número de objetos;
+  r: tamanho máximo da distância do polígono até seus vértices;
+  m: número de centros de distribuição;
+  xi e yi: coordenadas do centro ci
+  di: escala de distribuição do centro ci
+  sigma: variancia da distribuição.
