@@ -1,6 +1,9 @@
-# Gerador de Dataset Espacial Sintético
 
-# instale a biblioteca libspatialindex (seguindo os esses passos https://github.com/libspatialindex/libspatialindex/wiki/1.-Getting-Started)
+*****************************************************************************
+ GDES
+*****************************************************************************
 
-# Execute com o comando
-# g++ -std=c++0x file.cc -lspatialindex_c -lspatialindex -o file_name
+:Author: Paulo Henrique da Silva
+:Contact: paulohfin@yahoo.com.br
+:Date: 09/09/2016
+
