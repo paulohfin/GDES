@@ -1,3 +1,5 @@
+# Gerador de Dataset Espacial Sintético
+
 # instale a biblioteca libspatialindex (seguindo os esses passos https://github.com/libspatialindex/libspatialindex/wiki/1.-Getting-Started)
 
 # Execute com o comando
